@@ -1,0 +1,46 @@
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings (if you use VSCode)
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+
+# Ignore mypy and Pyre type check files
+.mypy_cache/
+.pyre/
+
+# Ignore compiled Cython files
+*.c
+*.cpp
+
+# Ignore environment variables
+.env
+*.env
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore Spyder IDE settings
+.spyderproject
+.spyproject
