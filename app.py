@@ -88,7 +88,7 @@ def display_icons_row(df):
     icon_html += "</div>"
     st.markdown(icon_html, unsafe_allow_html=True)
 
-st.set_page_config(layout="wide", page_title="Jordan Weather", page_icon="☀️")
+st.set_page_config(layout="wide", page_title="Jawwak - Jordan Weather", page_icon="☀️")
 
 st.markdown("""
     <style>
@@ -99,7 +99,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title(":sun_behind_cloud: Jordan Weather")
+st.title(":sun_behind_cloud: Jawwak - Jordan Weather")
 
 city_option = st.selectbox("Select location 📍", ["Use my current location"] + list(city_coords.keys()))
 
@@ -173,4 +173,4 @@ if coords:
                 plot_interactive(day_df, "Cloud Cover %", "%")
                 plot_interactive(day_df, "Wind Speed (MPS)", "m/s")
 
-                st.dataframe(day_df.style.format("{:.2f}"))
+
